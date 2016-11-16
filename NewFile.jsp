@@ -1,3 +1,9 @@
+
+
+
+
+
+
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -100,15 +106,13 @@ span.req {
                 <input type="hidden" value="<?php //echo $date_entered; ?>" name="dateregistered">
                 <input type="hidden" value="0" name="activate" />
                 <hr>
-
                 <input type="checkbox" required name="terms" onchange="this.setCustomValidity(validity.valueMissing ? 'Please indicate that you accept the Terms and Conditions' : '');" id="field_terms">   <label for="terms">I agree with the <a href="terms.php" title="You may read our terms and conditions by clicking on this link">terms and conditions</a> for Registration.</label><span class="req">* </span>
             </div>
 
              <div class="form-group">
-                <a class = "btn" href="C:\Users\DELL\workspace\ecommerce\src\main\webapp\index.jsp">Submit</a>
+             <button type="submit" class="btn btn-default" >submit</button> 
             </div>
-                     
-
+                    
             </fieldset>
             </form><!-- ends register form -->
 
